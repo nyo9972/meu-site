@@ -1,0 +1,126 @@
+.open-source {
+  cursor: url(../assets/img/fire.png), default !important;
+  overflow: hidden;
+  width: 100%;
+  margin-top: 15vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.open-source .divider {
+  margin-top: 10vh;
+}
+
+.open-source .title {
+  width: 290px;
+  display: flex;
+  justify-content: flex-start;
+  padding: 15px 30px 15px 30px;
+  background-color: var(--background-color);
+  border-radius: 20px;
+  font-size: 1.5rem;
+  border: 3px solid var(--color-green);
+  color: var(--color-lightWhite);
+  font-weight: bold;
+}
+
+.open-source .title > div {
+  width: 100%;
+  display: flex;
+}
+
+.open-source .title .cd {
+  padding: 0px 10px 0px 10px;
+}
+
+.open-source-article {
+  margin-top: 12vh;
+  height: 90%;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  background-color: var(--background-color);
+  border-radius: 40px;
+  transition: 0.5s;
+}
+
+.open-title {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  font-weight: bold;
+  color: var(--color-lightWhite);
+}
+
+.open-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.open-content .fire {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.fire .btn {
+  text-decoration: none;
+  cursor: url(../assets/img/fire.png), default !important;
+}
+
+.fire .btn div {
+  color: var(--background-color);
+  font-size: 1rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  border-radius: 20px;
+  background: linear-gradient(-90deg, #ee7752, #fcdb23);
+  box-shadow: 0 0 25px #fcc923;
+}
+
+.fire .btn div i {
+  padding-left: 8px;
+}
+
+.fire .btn div:hover {
+  background: linear-gradient(-90deg, #fcdb23, #ee7752);
+}
+
+#fireCanvas {
+  border-radius: 7px;
+  display: block;
+  margin: 25px;
+  width: 240px;
+  image-rendering: pixelated;
+}
+
+.open-description {
+  text-align: center;
+  font-size: 1.3rem;
+  color: var(--color-lightWhite);
+}
+
+.open-description a {
+  cursor: url(../assets/img/fire.png), default !important;
+  color: #ee7752;
+}
+
+.open-description span {
+  color: #ee7752;
+}
+
+.open-description span:hover, .open-description a:hover {
+  color: var(--color-yellow);
+}
